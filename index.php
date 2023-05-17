@@ -21,34 +21,10 @@
     }
   }
 
+
+  include "header.php";
 ?>
 
-
-
-
-
-
-
-
-
-
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>CRUD Operations</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" >
-  </head>
-  <body>
-  <nav class="navbar bg-body-tertiary">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">
-        Bootstrap
-      </a>
-    </div>
-  </nav>
-  <div class="container">
     <h1>CRUD Operations</h1>
 
     <form method="POST" action="">
@@ -70,7 +46,6 @@
       </div>
       <button type="submit" name="save" class="btn btn-danger">Submit</button>
     </form>
-  </div>
-    
-  </body>
-</html>
+  
+  <?php include 'footer.php'; ?>
+  
