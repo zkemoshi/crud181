@@ -1,7 +1,3 @@
-<?php 
-include 'db.php'; 
-sesstion_start();
-?>
 <!doctype html>
 <html lang="en">
   <head>
